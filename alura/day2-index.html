@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+        <head>
+           <meta charset="UTF-8">
+           <title>Day 2</title>
+        </head>
+        <body>
+            <header>
+                <h1>Tall me about you...</h1>
+                <nav></nav>
+            </header>
+            <main>
+                <script>
+                    function exibeMensagem(){
+                        document.write("Olá " +  nome  + "," + " você tem " + idade + " anos " + " e está estudando " + linguagem );
+                        document.write("<br>")
+                    }
+
+                    let nome = String(prompt('Digite seu nome:'));
+                    let idade = parseInt(prompt('Digite sua idade'));
+                    let linguagem = String(prompt('Qual liguagem você está estudando?'));
+                    let gostaDeEstudar = parseInt(prompt('Você gosta de estudar ? ' + linguagem + ' Responda 1 para Sim e 2 para Não'));
+                    
+                    exibeMensagem();
+
+                    if (gostaDeEstudar === 1) {
+                        document.write('Gosta de estudar, que bom! continue e terá sucesso.')
+                    }else {
+                        document.write('Ahh que pena, tente estudar outros assuntos ou até outras linguagens. Não desanime');
+                    }
+
+                </script>
+            </main>
+        </body>
+</html>

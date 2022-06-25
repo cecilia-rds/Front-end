@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day#5</title>
+</head>
+<body>
+    <script>
+        let listaFrutas = [];
+        let listaLaticinios = [];
+        let listaCongelados = [];
+        let listaDoces = [];
+        let item = ''
+        let nome = ''
+
+        function inicio(){
+            item = prompt('Você quer incluir um item a lista?')
+        }
+        
+        function novoItem (){
+            nome = prompt('Nome do item: ')
+            inicio();
+        }
+        inicio();
+
+        while (item == 'sim') {
+
+            const tipo = prompt('Em qual categoria?')
+            
+            if (tipo == 'frutas'){
+                novoItem();
+                listaFrutas.push(nome);
+                console.log(listaFrutas)
+            } else if (tipo == 'laticinios'){
+                novoItem();
+                listaLaticinios.push(nome);
+                console.log(listaLaticinios)
+            }else if (tipo == 'congelados') {
+                novoItem();
+                listaCongelados.push(nome);
+                console.log(listaCongelados)
+            }else if  (tipo == 'doces') {
+                novoItem();
+                listaDoces.push(nome);
+                console.log(listaDoces)
+            } else {
+                alert('Categoria invalida')
+            }
+        }
+        console.log(`Frutas: ${listaFrutas} ` );
+        console.log(`Laticinios: ${listaLaticinios}`);
+        console.log(`Congelados ${listaCongelados} `);
+        console.log(`Doces: ${listaDoces}`);
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Day #4</title>
+</head>
+<body>
+    <script>
+        
+        let num = Math.floor(Math.random() * (10 - 0 + 1) + 0);
+        console.log(num);
+        let cont = 1;
+        let chute = prompt('Chute o número que escolhi');
+
+        if (chute == num) {
+            alert('Você acertou!');
+
+        }
+        while (cont < 2 ) {
+            chute = prompt('Você errou, resta ' + cont + ' chutes' + ' tente novamente');
+            chute != num
+            cont++
+            
+        }    
+        alert(`Você errou, o número escolhido foi ${num} ` );
+    </script>
+</body>
+</html>
+
