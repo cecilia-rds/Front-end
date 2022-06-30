@@ -7,17 +7,16 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Projeto desenvolvido para pratica de HTML E CSS. 
+  Projeto desenvolvido para pratica de HTML e CSS. 
 </p>
 
 
-## Acesso através do link:
+## Acesso através do link
 
 https://crd-s.github.io/luna-sebo-cafe/index.html
 
-...
 
-## Desenvolvedores/Contribuintes :octocat:
+## Desenvolvedores/Contribuintes 
 
 
 | https://github.com/crd-s |
