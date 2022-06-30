@@ -4,8 +4,6 @@
 > Status do Projeto: :heavy_check_mark: (Concluido)
 
 
-Insira os tópicos do README em links para facilitar a navegação do leitor
-
 ## Descrição do projeto 
 
 <p align="justify">
@@ -13,10 +11,9 @@ Insira os tópicos do README em links para facilitar a navegação do leitor
 </p>
 
 
-## Acesso atraves do link:
+## Acesso através do link:
 
 https://crd-s.github.io/luna-sebo-cafe/index.html
-
 
 ...
 
@@ -24,7 +21,7 @@ https://crd-s.github.io/luna-sebo-cafe/index.html
 
 
 | https://github.com/crd-s |
-| :---: | :---: | :---: 
+ 
 
 ## Licença 
 
