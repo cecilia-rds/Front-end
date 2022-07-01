@@ -1,3 +1,49 @@
 mark {
     background-color: rgb(152, 123, 179);  /*Cor de fundo mark */ 
 }
+mark {
+    background-color: rgb(152, 123, 179);  /*Cor de fundo mark */ 
+}
+mark {
+    background-color: rgb(152, 123, 179);  /*Cor de fundo mark */ 
+    width: 500px; /* largura*/
+    pedding: 10px /* ao redor do elemento */
+    margin: auto; /*mantem no centro da pagina */
+    border-radius: 10px /* Para cantos arredondados */
+    box-shadow: 10px 10px 10px black; /* Sombra, parametro 1 quando a sombra vai andar para o lado, segundo, andar para baixo, terceiro, quando vai espalhar, ultimo o quanto de transparencia   */
+}
+texto logos digitais não serifadas - recomendação
+nav li {
+    text-transform: uppercase; /*deixa o texto em maiusculos */
+}
+h1{
+    text-align: center; /*texto para o centro */
+    text-shadow: 1px 1px 0px black; /*texto com sombra */
+}
+
+/*Medidas absolutas = cm,mm, in, px, *pt, pc* - tipografica papel, não usar para telas
+
+Medidas relativas = em, ex, rem, vw, vh, % 16 px é p numero padrão */
+
+hi {
+font-weight: ; /*Peso da fonte*/
+font-style: italic ou normal;
+text-decoration: underline; /*sublinhado*/
+font-family: 'Work San' sans-serif;
+font-weight: bolder; /*peso da fonte*/
+font-size: 3em; /*usar em e px */
+font-style: italic;
+text-align: justify; /* Alinha a esqueda e a direita */
+text-indent: /*20px;inicio do paragrafo com identação */
+/*Pode ser declarado como shorthand seguir a ordem*/
+font: italic bolder 3em 'Work San' sans-serif
+/*PAra importa fontes baixadas *TIpos opentype(otf) truetype(ttf) embeded-opentype, truetype-aat(apple advanced typografy), avg*/
+@font-face {
+    font-family: 'Love';
+    src: url('font/love larry.ttf') format ('opentype');
+
+}
+
+
+}
+
